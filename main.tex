@@ -1,0 +1,353 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{chngcntr}  % Add this near your other \usepackage commands
+\usepackage{float}
+\usepackage{parskip}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{ragged2e}
+% Bibliography handled by biblatex (APA 7)
+\usepackage{csquotes}
+\usepackage{url}
+\justifying
+\usepackage{longtable}
+\usepackage[a4paper, top=2.54cm, bottom=2.54cm, left=3.17cm, right=2.54cm]{geometry}
+\usepackage{newtxtext,newtxmath}
+\usepackage{datetime}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+% Number figures by chapter only, not by subsection
+\counterwithout{figure}{section}
+\counterwithout{table}{section}
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+% Patch chapter to remove top horizontal line
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+\makeatother
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\usepackage{titlesec}
+\usepackage{longtable} % preamble only
+
+% Force page break before each chapter
+\let\oldchapter\chapter
+\renewcommand{\chapter}{\clearpage\oldchapter}
+% Centered chapter formatting
+\titleformat{\chapter}[display]
+  {\bfseries\centering\fontsize{16}{20}\selectfont}
+  {\thechapter}{1em}{}
+
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{0pt} % no extra vertical space
+  {\parindent \z@ \centering
+    \normalfont
+    \bfseries\Huge \thechapter\quad #1\par\nobreak
+    \vskip 20pt % space after title
+  }}
+\makeatother
+\titleformat{\section}[block]{\bfseries\fontsize{14}{18}\selectfont}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{10pt}{10pt}
+
+\titleformat{\subsection}[block]{\bfseries\fontsize{12}{14}\selectfont}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{5pt}{5pt}
+
+\titleformat{\subsubsection}[block]{\bfseries\fontsize{12}{14}\selectfont}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{5pt}{5pt}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{booktabs}
+\captionsetup{font=bf, labelfont=bf, justification=centering}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\newcommand{\frontmatter}{\pagenumbering{roman}}
+\newcommand{\mainmatter}{\clearpage\pagenumbering{arabic}}
+\usepackage[style=apa,backend=biber,natbib=true]{biblatex}
+\DeclareLanguageMapping{english                                                                                                                                     }{english-apa}
+\addbibresource{reference/reference.bib}
+\usepackage{listings}
+\usepackage{xcolor}
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{green!60!black},
+    stringstyle=\color{red},
+    numbers=none,
+    frame=none,
+    breaklines=true,
+    showstringspaces=false,
+    tabsize=4
+}
+\usepackage{enumitem}
+\usepackage{tocloft}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftbeforetoctitleskip}{-1em} % adjust spacing if needed
+\renewcommand{\cftaftertoctitleskip}{2em}   % adjust spacing if needed
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries} % TOC title
+\renewcommand{\cftaftertoctitle}{\hfill}               % TOC title end
+
+\renewcommand{\cftloftitlefont}{\hfill\Large\bfseries} % List of Figures title
+\renewcommand{\cftafterloftitle}{\hfill}
+
+\renewcommand{\cftlottitlefont}{\hfill\Large\bfseries} % List of Tables title
+\renewcommand{\cftafterlottitle}{\hfill}
+% Force page break for each list type
+\let\oldtableofcontents\tableofcontents
+\renewcommand{\tableofcontents}{\clearpage\oldtableofcontents}
+
+\let\oldlistoffigures\listoffigures
+\renewcommand{\listoffigures}{\clearpage\oldlistoffigures}
+
+\let\oldlistoftables\listoftables
+\renewcommand{\listoftables}{\clearpage\oldlistoftables}
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+\renewcommand{\listtablename}{LIST OF TABLES}
+\renewcommand{\cftbeforeloftitleskip}{0pt}
+\renewcommand{\cftafterloftitleskip}{1.2em}
+\renewcommand{\cftbeforelottitleskip}{0pt}
+\renewcommand{\cftafterlottitleskip}{1.2em}
+\renewcommand{\cftchapfont}{\bfseries\fontsize{12}{14}\selectfont}   % Bold chapters
+\renewcommand{\cftsecfont}{\normalfont\fontsize{12}{14}\selectfont} % Normal sections
+\renewcommand{\cftsubsecfont}{\normalfont\fontsize{12}{14}\selectfont}
+\renewcommand{\cftsubsubsecfont}{\normalfont\fontsize{12}{14}\selectfont}
+
+% Page numbers
+\renewcommand{\cftchappagefont}{\bfseries\fontsize{12}{14}\selectfont}   % Bold chapter page no.
+\renewcommand{\cftsecpagefont}{\normalfont\fontsize{12}{14}\selectfont}
+\renewcommand{\cftsubsecpagefont}{\normalfont\fontsize{12}{14}\selectfont}
+\renewcommand{\cftsubsubsecpagefont}{\normalfont\fontsize{12}{14}\selectfont}
+
+% ----- TOC Indentation -----
+% Default indents: chapter=0pt, section=1.5em, subsection=3.8em
+% We reduce these to make hierarchy tighter
+\setlength{\cftchapindent}{0pt}
+\setlength{\cftsecindent}{1em}
+\setlength{\cftsubsecindent}{2em}
+\setlength{\cftsubsubsecindent}{3em}
+
+% ----- TOC Number Widths -----
+% Prevent overlap of numbers with titles
+\setlength{\cftchapnumwidth}{2em}
+\setlength{\cftsecnumwidth}{2.5em}
+\setlength{\cftsubsecnumwidth}{3em}
+\setlength{\cftsubsubsecnumwidth}{3.5em}
+
+\setlength{\cftbeforechapskip}{0.5em}   % space before chapter entries
+\setlength{\cftbeforesecskip}{0.5em}    % space before section entries
+\setlength{\cftbeforesubsecskip}{0.5em} % space before subsection entries
+\setlength{\cftbeforesubsubsecskip}{0.5em} 
+
+\begin{document}
+\counterwithout{table}{chapter}  % This makes tables numbered 1, 2, 3... not 1.1, 2.1, etc.
+
+\newlist{tabitem}{itemize}{1}
+\setlist[tabitem]{
+    label=\textbullet,
+    nosep,
+    leftmargin=*,
+    topsep=-0.8\baselineskip,
+    partopsep=0pt,
+    parsep=0pt,
+    itemsep=2pt,
+    before=\vspace{0pt},
+    after=\vspace{-\baselineskip}
+}
+\newcommand{\tabitems}[1]{\begin{tabitem}#1\end{tabitem}}
+
+\begin{titlepage}
+    \thispagestyle{empty} 
+    \centering
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=5cm, width=0.3\linewidth]{figure/logop.jpg}
+        \label{fig:title-logo}
+    \end{figure}
+    \Large
+    \textbf{Tribhuvan University}\\
+    \textbf{Institute of Science and Technology}\\
+
+    % Leave the figure blank
+    % \includegraphics[width=0.3\textwidth]{}
+    \vspace{0.5cm}
+    \Large \textbf{Project Report on}\\[0.5cm]
+    \large Frontend Intern at Global Square I.T. Company Pvt. Ltd.
+
+    \large
+    \textbf{Submitted to:}\\
+    Department of Bachelor of Science in Computer Science and Information Technology (BSc.CSIT)\\
+    National College of Computer Studies\\
+\vspace{0.5cm}
+  \textit{\textbf{  In partial fulfillment of the requirement for the degree of\\
+    Bachelor of Science in Computer Science and Information Technology (BSc.CSIT)}}\\
+\vspace{0.5cm}
+    \textbf{Submitted by:}\\
+    Amardeep Limbu [28860/078]\\
+    Regd. No.: 5-2-551-64-2021\\[1cm]
+
+    \textbf{Under the supervision of}\\
+    Mr. Radha Krishna Gajurel\\\
+
+    \textbf{January, 2026}
+
+\end{titlepage}
+
+\frontmatter
+
+
+
+\chapter*{SUPERVISOR'S RECOMMENDATION}
+\addcontentsline{toc}{chapter}{SUPERVISOR'S RECOMMENDATION}
+
+\noindent This is to certify that the internship report entitled \textbf{``Frontend Internship at Global Square IT Company Pvt. Ltd.''} has been prepared by \textbf{Amardeep Limbu [28860/078]} under my supervision and guidance.
+
+\vspace{0.5cm}
+
+\noindent The report reflects the student's practical experience, technical skill development, and the successful application of computer science principles in a professional environment. I have monitored the progress of this internship and the subsequent documentation throughout the semester.
+
+\vspace{0.5cm}
+
+\noindent I hereby recommend that this report, prepared in partial fulfillment of the requirements for the degree of \textbf{Bachelor of Science in Computer Science and Information Technology (BSc.CSIT)}, be accepted and processed for the final evaluation.
+
+\vspace{3cm}
+
+% Signature Block
+\noindent \makebox[6cm]{\hrulefill} \\
+\textbf{Mr. Radha Krishna Gajurel} \\
+Project Supervisor \\
+National College of Computer Studies \\
+Paknajol, Kathmandu
+
+\chapter*{CERTIFICATE OF APPROVAL}
+\addcontentsline{toc}{chapter}{CERTIFICATE OF APPROVAL}
+This is to certify that the report is evaluated and recommended to the Department of Computer Science and Information Technology for acceptance of the internship report entitled \textbf{"Frontend Engineering Internship at Global Square I.T. Company Pvt. Ltd."}  submitted by \textbf{Amardeep Limbu [28860/078]} in partial fulfillment for the degree of Bachelor of Science in Computer Science and Information Technology (B.Sc.CSIT), Institute of Science and Technology (IOST), Tribhuvan University.
+\vspace{3cm}
+\begin{center}
+% First row: Supervisor and HOD/Coordinator
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\rule{6cm}{0.4pt} \\ % line for signature
+\textbf{Signature of Supervisor}\\
+Mr. Radha Krishna Gajurel\\
+Faculty Member \\
+Computer Science and Information Technology\\
+ National College of Computer Studies \\
+ Paknajol, Kathmandu
+\end{minipage} \hfill
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\rule{6cm}{0.4pt} \\ % line for signature
+\textbf{Signature of Coordinator}\\
+Ramesh Phuyal\\
+Coordinator of CSIT\\
+Department of Computer Science and Information Technology\\
+National College of Computer Studies\\
+Paknajol, Kathmandu\\
+\end{minipage}
+
+\vspace{3cm} % space between rows
+
+% Second row: Internal Examiner and External Examiner
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\rule{6cm}{0.4pt} \\ % line for signature
+SIGNATURE of Internal Examiner \\[0.2cm]
+
+\end{minipage} \hfill
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\rule{6cm}{0.4pt} \\ % line for signature
+SIGNATURE of External Examiner \\[0.2cm]
+
+
+\end{minipage}
+
+\end{center}
+
+
+\chapter*{ACKNOWLEDGMENT}
+\addcontentsline{toc}{chapter}{ACKNOWLEDGMENT}
+I wish to express my sincere appreciation to \textbf{Global Square I.T. Company Pvt. Ltd.} for the opportunity to undertake my professional internship within their esteemed organization. The exposure to a collaborative and technologically advanced work environment has been pivotal in bridging the gap between my academic knowledge and the professional landscape.
+
+\vspace{0.5cm}
+
+I am deeply grateful to the \textbf{Department of Computer Science and Information Technology} at \textbf{National College of Computer Studies} for their consistent support. I owe a special debt of gratitude to our Program Coordinator, \textbf{Mr. Rajan Paudel}, whose efficient coordination and constant encouragement were essential for the successful completion of this internship.
+
+\vspace{0.5cm}
+
+I would like to extend my heartfelt thanks to my project supervisor, \textbf{Mr. Radha Krishna Gajurel}, for his invaluable guidance. His academic insights and constructive critiques throughout the semester were instrumental in the refinement of this report.
+
+\vspace{0.5cm}
+
+I am particularly thankful to my mentors at the organization, \textbf{Mr. Nabin Shrestha} and \textbf{Mr. Sushant Luitel}. Their expert technical mentorship and willingness to share their expertise allowed me to navigate complex challenges and contribute effectively to the company's projects.
+
+\vspace{0.5cm}
+
+Finally, I am thankful to my family, friends, and colleagues for their motivation and support during my academic tenure. Their shared insights and encouragement made this entire learning experience truly enriching.
+
+\vspace{2cm}
+
+\noindent Sincerely, \\
+\textbf{Amardeep Limbu} \\
+Roll No: 28860/078 \\
+TU Regd. No: 5-2-551-64-2021
+\chapter*{ABSTRACT}
+\addcontentsline{toc}{chapter}{ABSTRACT}
+This report outlines the design and development of responsive web applications implemented during a frontend engineering internship. The primary objective was to construct scalable, user-centric interfaces through modern component-based architectures using React.js and Next.js. The development scope encompassed diverse applications, including e-commerce platforms and online examination systems, necessitating robust state management and cross-device compatibility. Key technical implementations involved strict type safety via TypeScript, schema validation, and seamless RESTful API integration to ensure data integrity and system reliability. Furthermore, the project emphasizes professional software engineering practices, including version control, modular code organization, and design-to-code translation. The outcomes demonstrate significant enhancements in application performance, usability, and maintainability, validating the effectiveness of integrating advanced frontend methodologies to deliver industrial-grade web solutions.
+
+\textbf{KEYWORDS:} \textit{Frontend Development, Web Applications, React.js, Component Architecture, API Integration}
+\pagebreak
+\tableofcontents
+
+\clearpage
+\titlespacing*{\chapter}{0pt}{-10pt}{20pt}
+\renewcommand{\listfigurename}{LIST OF FIGURES} % ensure uppercase
+\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+\listoffigures
+\clearpage
+\renewcommand{\listtablename}{LIST OF TABLES} % ensure uppercase
+\addcontentsline{toc}{chapter}{LIST OF TABLES}
+\listoftables
+\clearpage
+\chapter*{LIST OF ABBREVIATIONS} % (note spelling)
+\addcontentsline{toc}{chapter}{LIST OF ABBREVIATIONS}
+\begin{tabular}{ll}
+API & Application Programming Interface \\
+CSS & Cascading Style Sheets \\
+HTML & HyperText Markup Language \\
+JS & JavaScript \\
+JSON & JavaScript Object Notation \\
+UI & User Interface \\
+UX & User Experience \\
+OTP & One-Time Password \\
+SPA & Single-Page Application \\
+REST & Representational State Transfer \\
+\end{tabular}
+
+
+\mainmatter
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2}
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4}
+\cleardoublepage
+% Print bibliography in TOC with APA style
+\printbibliography[heading=bibintoc,title={REFERENCES}]
+
+\include{Chapters/Chapter6}
+\end{document}

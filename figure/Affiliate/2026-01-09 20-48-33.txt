@@ -1,0 +1,86 @@
+import styles from "./Header.module.css";
+import logo from "../../assets/logo.png";
+import girlImage from "../../assets/header/girl-herosection.png";
+import logomobile from "../../assets/header/logo.svg";
+import smapp from "../../assets/header/image 37.svg";
+import clubair from "../../assets/header/image 38.svg";
+import topdandy from "../../assets/header/image 39.svg";
+import clubacqua from "../../assets/header/image 40.svg";
+import roeo from "../../assets/header/image 41.svg";
+import sinceyou from "../../assets/header/image 42.svg";
+import clubharem from "../../assets/header/image 43.svg";
+
+export const Header = () => {
+  const slider = [
+    smapp,
+    clubair,
+    topdandy,
+    clubacqua,
+    roeo,
+    sinceyou,
+    clubharem,
+  ];
+
+  return (
+    <div className={styles.header}>
+      <div className={styles.navbar}>
+        <img src={logomobile} className={styles["navbar-logo"]} />
+        <button className={styles.button}>
+          アフィリエイトプログラムに参加する(無料)
+        </button>
+      </div>
+      <div className={styles.main}>
+        <div className={styles.content}>
+          <div className={styles.logo}>
+            <img src={logo} className={styles["logo-image"]} />
+          </div>
+
+          <div className={styles["text-content"]}>
+            <div className={styles["text-container"]}>
+              <div className={styles.text}>
+                ホストクラブの初回ネット予約
+                <br />
+                「ホスログ」のアフィリエイトプログラム
+              </div>
+            </div>
+
+            <div className={styles["text-2"]}>
+              ホスロ<span className={styles.highlight}>グ</span>
+              <span className={styles.highlight1}>で</span>
+              <span className={styles["text-green"]}>継続的</span>
+              <span className={styles.highlight2}>な</span>
+              <br />
+              紹介報酬が受け取れる
+            </div>
+
+            <div className={styles.button}>
+              <button className={styles.button}>
+                アフィリエイトプログラムに参加する(無料)
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles["rectangle-container"]}>
+          <div className={styles.rectangle}>
+            <div className={styles["rectangle-image-container"]}>
+              <img src={girlImage} className={styles["rectangle-image"]} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.slider}>
+        <div className={styles["slider-slide"]}>
+          {slider
+            .concat(slider)
+            .concat(slider)
+            .map((src, i) => (
+              <div className={styles["slider-card"]} key={i}>
+                <img src={src} className={styles["slider-card-image"]} />
+              </div>
+            ))}
+        </div>
+      </div>
+    </div>
+  );
+};

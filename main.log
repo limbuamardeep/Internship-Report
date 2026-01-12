@@ -1,0 +1,1625 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.1.9)  10 JAN 2026 00:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count196
+\float@exts=\toks17
+\float@box=\box51
+\@float@everytoks=\toks18
+\@floatcapt=\box52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count197
+))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip50
+\RaggedLeftLeftskip=\skip51
+\RaggedRightLeftskip=\skip52
+\CenteringRightskip=\skip53
+\RaggedLeftRightskip=\skip54
+\RaggedRightRightskip=\skip55
+\CenteringParfillskip=\skip56
+\RaggedLeftParfillskip=\skip57
+\RaggedRightParfillskip=\skip58
+\JustifyingParfillskip=\skip59
+\CenteringParindent=\skip60
+\RaggedLeftParindent=\skip61
+\RaggedRightParindent=\skip62
+\JustifyingParindent=\skip63
+)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count198
+\csq@gtype=\count199
+\csq@glevel=\count266
+\csq@qlevel=\count267
+\csq@maxlvl=\count268
+\csq@tshold=\count269
+\csq@ltx@everypar=\toks20
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count270
+\LTcapwidth=\dimen141
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count271
+\LT@rows=\count272
+\c@LT@tables=\count273
+\c@LT@chunks=\count274
+\LT@p@ftn=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count275
+\Gm@cntv=\count276
+\c@Gm@tempcnt=\count277
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxtext.sty
+Package: newtxtext 2024/01/11 v1.737(Michael Sharpe) latex and unicode latex su
+pport for TeXGyreTermesX
+
+`newtxtext' v1.737, 2024/01/11 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count278
+\l__pdf_internal_box=\box58
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count279
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count280
+\xs_countb=\count281
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
+
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+\ntx@tmpcnta=\count282
+\ntx@cnt=\count283
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+\tx@sixem=\dimen150
+\tx@y=\dimen151
+\tx@x=\dimen152
+\tx@tmpdima=\dimen153
+\tx@tmpdimb=\dimen154
+\tx@tmpdimc=\dimen155
+\tx@tmpdimd=\dimen156
+\tx@tmpdime=\dimen157
+\tx@tmpdimf=\dimen158
+\tx@dimA=\dimen159
+\tx@dimAA=\dimen160
+\tx@dimB=\dimen161
+\tx@dimBB=\dimen162
+\tx@dimC=\dimen163
+LaTeX Info: Redefining \oldstylenums on input line 893.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+Package: newtxmath 2023/11/05 v1.732
+
+`newtxmath' v1.732, 2023/11/05 Math macros based originally on txfonts (msharpe
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen164
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count284
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count285
+\leftroot@=\count286
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count287
+\DOTSCASE@=\count288
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count289
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count290
+\dotsspace@=\muskip17
+\c@parentequation=\count291
+\dspbrk@lvl=\count292
+\tag@help=\toks26
+\row@=\count293
+\column@=\count294
+\maxfields@=\count295
+\andhelp@=\toks27
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks28
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+\tx@cntz=\count296
+
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count297
+\tx@IsAlNum=\count298
+\tx@tA=\toks30
+\tx@tB=\toks31
+\tx@su=\read2
+
+amsthm NOT loaded
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 390.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/minntx/m/n on input line 390.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/m/n on input line 390.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/minntx/m/n --> OT1/minntx/b/n on input line 391.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 397.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/qhv/m/n on input line 397.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/qhv/m/n on input line 397.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 398.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/minntx/m/it on input line 398.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/minntx/m/it on input line 398.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 399.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/ntxtt/m/n on input line 399.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/ntxtt/m/n on input line 399.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/minntx/m/it --> OT1/minntx/b/it on input line 402.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/qhv/m/n --> OT1/qhv/b/n on input line 403.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/ntxtt/m/n --> OT1/ntxtt/b/n on input line 404.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 506.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 506.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 506.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 507.
+\symlettersA=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 562.
+Now handling font encoding LMS ...
+... no UTF-8 mapping file for font encoding LMS
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 583.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 583.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 583.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 583.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 583.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 584.
+\symAMSm=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 609.
+\symsymbolsC=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 630.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 643.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 6
+43.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 643.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 643
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 643.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 644.
+\symlargesymbolsTXA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 658.
+\tx@sbptoks=\toks32
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 881.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 882.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 883.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 884.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 889.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 890.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 892.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 894.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 898.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 899.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 945.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 970.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 971.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 2044.
+LaTeX Info: Redefining \Bbbk on input line 2834.
+LaTeX Info: Redefining \not on input line 2982.
+) (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2020/01/30 v3.07
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count299
+))
+\c@padzeroesN=\count300
+\fc@tmpcatcode=\count301
+\@DT@modctr=\count302
+\@ordinalctr=\count303
+\@orgargctr=\count304
+\@strctr=\count305
+\@tmpstrctr=\count306
+\@DT@loopN=\count307
+\@DT@X=\count308
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count309
+\@month=\count310
+\@year=\count311
+\c@HOUR=\count312
+\c@HOURXII=\count313
+\c@MINUTE=\count314
+\c@TOHOUR=\count315
+\c@TOMINUTE=\count316
+\c@SECOND=\count317
+\currenthour=\count318
+\currentminute=\count319
+\currentsecond=\count320
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count321
+\dayofyear=\count322
+\dayofweek=\count323
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks33
+\dt@b=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip71
+\f@nch@O@elh=\skip72
+\f@nch@O@erh=\skip73
+\f@nch@O@olh=\skip74
+\f@nch@O@orh=\skip75
+\f@nch@O@elf=\skip76
+\f@nch@O@erf=\skip77
+\f@nch@O@olf=\skip78
+\f@nch@O@orf=\skip79
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box61
+\extrarowheight=\dimen174
+\NC@list=\toks35
+\extratabsurround=\skip80
+\backup@length=\skip81
+\ar@cellbox=\box62
+)
+\TX@col@width=\dimen175
+\TX@old@table=\dimen176
+\TX@old@col=\dimen177
+\TX@target=\dimen178
+\TX@delta=\dimen179
+\TX@cols=\count324
+\TX@ftn=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip82
+\enit@outerparindent=\dimen180
+\enit@toks=\toks37
+\enit@inbox=\box63
+\enit@count@id=\count325
+\enitdp@description=\count326
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box64
+\beforetitleunit=\skip83
+\aftertitleunit=\skip84
+\ttl@plus=\dimen181
+\ttl@minus=\dimen182
+\ttl@toksa=\toks38
+\titlewidth=\dimen183
+\titlewidthlast=\dimen184
+\titlewidthfirst=\dimen185
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen186
+\Gin@req@width=\dimen187
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen188
+\captionmargin=\dimen189
+\caption@leftmargin=\dimen190
+\caption@rightmargin=\dimen191
+\caption@width=\dimen192
+\caption@indent=\dimen193
+\caption@parindent=\dimen194
+\caption@hangindent=\dimen195
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count327
+\c@continuedfloat=\count328
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen196
+\lightrulewidth=\dimen197
+\cmidrulewidth=\dimen198
+\belowrulesep=\dimen199
+\belowbottomsep=\dimen256
+\aboverulesep=\dimen257
+\abovetopsep=\dimen258
+\cmidrulesep=\dimen259
+\cmidrulekern=\dimen260
+\defaultaddspace=\dimen261
+\@cmidla=\count329
+\@cmidlb=\count330
+\@aboverulesep=\dimen262
+\@belowrulesep=\dimen263
+\@thisruleclass=\count331
+\@lastruleclass=\count332
+\@thisrulewidth=\dimen264
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count333
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count334
+\c@listtotal=\count335
+\c@listcount=\count336
+\c@liststart=\count337
+\c@liststop=\count338
+\c@citecount=\count339
+\c@citetotal=\count340
+\c@multicitecount=\count341
+\c@multicitetotal=\count342
+\c@instcount=\count343
+\c@maxnames=\count344
+\c@minnames=\count345
+\c@maxitems=\count346
+\c@minitems=\count347
+\c@citecounter=\count348
+\c@maxcitecounter=\count349
+\c@savedcitecounter=\count350
+\c@uniquelist=\count351
+\c@uniquename=\count352
+\c@refsection=\count353
+\c@refsegment=\count354
+\c@maxextratitle=\count355
+\c@maxextratitleyear=\count356
+\c@maxextraname=\count357
+\c@maxextradate=\count358
+\c@maxextraalpha=\count359
+\c@abbrvpenalty=\count360
+\c@highnamepenalty=\count361
+\c@lownamepenalty=\count362
+\c@maxparens=\count363
+\c@parenlevel=\count364
+\blx@tempcnta=\count365
+\blx@tempcntb=\count366
+\blx@tempcntc=\count367
+\c@blx@maxsection=\count368
+\blx@maxsegment@0=\count369
+\blx@notetype=\count370
+\blx@parenlevel@text=\count371
+\blx@parenlevel@foot=\count372
+\blx@sectionciteorder@0=\count373
+\blx@sectionciteorderinternal@0=\count374
+\blx@entrysetcounter=\count375
+\blx@biblioinstance=\count376
+\labelnumberwidth=\skip85
+\labelalphawidth=\skip86
+\biblabelsep=\skip87
+\bibitemsep=\skip88
+\bibnamesep=\skip89
+\bibinitsep=\skip90
+\bibparsep=\skip91
+\bibhang=\skip92
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language89
+\c@mincomprange=\count377
+\c@maxcomprange=\count378
+\c@mincompwidth=\count379
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count380
+\c@savedafterword=\count381
+\c@annotator=\count382
+\c@savedannotator=\count383
+\c@author=\count384
+\c@savedauthor=\count385
+\c@bookauthor=\count386
+\c@savedbookauthor=\count387
+\c@commentator=\count388
+\c@savedcommentator=\count389
+\c@editor=\count390
+\c@savededitor=\count391
+\c@editora=\count392
+\c@savededitora=\count393
+\c@editorb=\count394
+\c@savededitorb=\count395
+\c@editorc=\count396
+\c@savededitorc=\count397
+\c@foreword=\count398
+\c@savedforeword=\count399
+\c@holder=\count400
+\c@savedholder=\count401
+\c@introduction=\count402
+\c@savedintroduction=\count403
+\c@namea=\count404
+\c@savednamea=\count405
+\c@nameb=\count406
+\c@savednameb=\count407
+\c@namec=\count408
+\c@savednamec=\count409
+\c@translator=\count410
+\c@savedtranslator=\count411
+\c@shortauthor=\count412
+\c@savedshortauthor=\count413
+\c@shorteditor=\count414
+\c@savedshorteditor=\count415
+\c@narrator=\count416
+\c@savednarrator=\count417
+\c@execproducer=\count418
+\c@savedexecproducer=\count419
+\c@execdirector=\count420
+\c@savedexecdirector=\count421
+\c@with=\count422
+\c@savedwith=\count423
+\c@labelname=\count424
+\c@savedlabelname=\count425
+\c@institution=\count426
+\c@savedinstitution=\count427
+\c@lista=\count428
+\c@savedlista=\count429
+\c@listb=\count430
+\c@savedlistb=\count431
+\c@listc=\count432
+\c@savedlistc=\count433
+\c@listd=\count434
+\c@savedlistd=\count435
+\c@liste=\count436
+\c@savedliste=\count437
+\c@listf=\count438
+\c@savedlistf=\count439
+\c@location=\count440
+\c@savedlocation=\count441
+\c@organization=\count442
+\c@savedorganization=\count443
+\c@origlocation=\count444
+\c@savedoriglocation=\count445
+\c@origpublisher=\count446
+\c@savedorigpublisher=\count447
+\c@publisher=\count448
+\c@savedpublisher=\count449
+\c@language=\count450
+\c@savedlanguage=\count451
+\c@origlanguage=\count452
+\c@savedoriglanguage=\count453
+\c@citation=\count454
+\c@savedcitation=\count455
+\c@pageref=\count456
+\c@savedpageref=\count457
+\shorthandwidth=\skip93
+\shortjournalwidth=\skip94
+\shortserieswidth=\skip95
+\shorttitlewidth=\skip96
+\shortauthorwidth=\skip97
+\shorteditorwidth=\skip98
+\locallabelnumberwidth=\skip99
+\locallabelalphawidth=\skip100
+\localshorthandwidth=\skip101
+\localshortjournalwidth=\skip102
+\localshortserieswidth=\skip103
+\localshorttitlewidth=\skip104
+\localshortauthorwidth=\skip105
+\localshorteditorwidth=\skip106
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count458
+\c@textcitetotal=\count459
+\c@textcitemaxnames=\count460
+\c@biburlbigbreakpenalty=\count461
+\c@biburlbreakpenalty=\count462
+\c@biburlnumpenalty=\count463
+\c@biburlucpenalty=\count464
+\c@biburllcpenalty=\count465
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count466
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2023/03/20 v9.17 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count467
+\c@bbx:relatedtotal=\count468
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
+ed, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
+efined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2023/03/20 v9.17 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2024-01-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count469
+\lst@gtempboxa=\box65
+\lst@token=\toks39
+\lst@length=\count470
+\lst@currlwidth=\dimen265
+\lst@column=\count471
+\lst@pos=\count472
+\lst@lostspace=\dimen266
+\lst@width=\dimen267
+\lst@newlines=\count473
+\lst@lineno=\count474
+\lst@maxwidth=\dimen268
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count475
+\lst@skipnumbers=\count476
+\lst@framebox=\box66
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip107
+\cftbeforetoctitleskip=\skip108
+\cftaftertoctitleskip=\skip109
+\cftbeforepartskip=\skip110
+\cftpartnumwidth=\skip111
+\cftpartindent=\skip112
+\cftbeforechapskip=\skip113
+\cftchapindent=\skip114
+\cftchapnumwidth=\skip115
+\cftbeforesecskip=\skip116
+\cftsecindent=\skip117
+\cftsecnumwidth=\skip118
+\cftbeforesubsecskip=\skip119
+\cftsubsecindent=\skip120
+\cftsubsecnumwidth=\skip121
+\cftbeforesubsubsecskip=\skip122
+\cftsubsubsecindent=\skip123
+\cftsubsubsecnumwidth=\skip124
+\cftbeforeparaskip=\skip125
+\cftparaindent=\skip126
+\cftparanumwidth=\skip127
+\cftbeforesubparaskip=\skip128
+\cftsubparaindent=\skip129
+\cftsubparanumwidth=\skip130
+\cftbeforeloftitleskip=\skip131
+\cftafterloftitleskip=\skip132
+\cftbeforefigskip=\skip133
+\cftfigindent=\skip134
+\cftfignumwidth=\skip135
+\c@lofdepth=\count477
+\c@lotdepth=\count478
+\cftbeforelottitleskip=\skip136
+\cftafterlottitleskip=\skip137
+\cftbeforetabskip=\skip138
+\cfttabindent=\skip139
+\cfttabnumwidth=\skip140
+
+
+Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing
+ out. on input line 1156.
+
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
+e 156.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
+File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 156.
+ (./main.aux
+(./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux)
+(./Chapters/Chapter4.aux) (./Chapters/Chapter6.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 156.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
+ 156.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 156.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
+156.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 156.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
+ 156.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 156.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
+e 156.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 156.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(90.19518pt, 435.0429pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=435.0429pt
+* \textheight=700.50723pt
+* \oddsidemargin=17.92519pt
+* \evensidemargin=17.92519pt
+* \topmargin=-37.00018pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count479
+\scratchdimen=\dimen269
+\scratchbox=\box67
+\nofMPsegments=\count480
+\nofMParguments=\count481
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count482
+\MPscratchDim=\dimen270
+\MPnumerator=\count483
+\makeMPintoPDFobject=\count484
+\everyMPtoPDFconversion=\toks41
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@mv@tabular=\count485
+\c@mv@boldtabular=\count486
+LaTeX Info: Command `\dddot' is already robust on input line 156.
+LaTeX Info: Command `\ddddot' is already robust on input line 156.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+))))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+
+(./main.bbl)
+Package biblatex Info: Reference section=0 on input line 156.
+Package biblatex Info: Reference segment=0 on input line 156.
+\c@lstlisting=\count487
+\enitdp@tabitem=\count488
+<figure/logop.jpg, id=1, 636.6987pt x 752.0898pt>
+File: figure/logop.jpg Graphic file (type jpg)
+<use figure/logop.jpg>
+Package pdftex.def Info: figure/logop.jpg  used on input line 178.
+(pdftex.def)             Requested size: 130.51436pt x 142.25589pt.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 181.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 182.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 189.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 192.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 14.4pt on input line 197.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
+(Font)              scaled to size 14.4pt on input line 197.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc} <./figure/logop.jpg>]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 214.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 16.0pt on input line 214.
+
+[1
+
+
+] [2
+
+
+] [3
+
+
+]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 313.
+ [4
+
+
+] (./main.toc
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
+e 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
+)
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+) [5])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [6] (./main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [7
+
+] (./main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [8
+
+] [9
+
+
+
+]
+\openout2 = `Chapters/Chapter1.aux'.
+
+ (./Chapters/Chapter1.tex
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.0pt on input line 4.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
+e 17.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 17.
+ [1
+
+
+
+
+{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [2]) [3
+
+]
+\openout2 = `Chapters/Chapter2.aux'.
+
+ (./Chapters/Chapter2.tex
+<figure/logo.jpg, id=50, 455.45157pt x 76.78688pt>
+File: figure/logo.jpg Graphic file (type jpg)
+<use figure/logo.jpg>
+Package pdftex.def Info: figure/logo.jpg  used on input line 17.
+(pdftex.def)             Requested size: 435.0429pt x 73.34782pt.
+<figure/hierarchy.png, id=51, 341.02406pt x 203.25937pt>
+File: figure/hierarchy.png Graphic file (type png)
+<use figure/hierarchy.png>
+Package pdftex.def Info: figure/hierarchy.png  used on input line 39.
+(pdftex.def)             Requested size: 435.0429pt x 259.31198pt.
+
+[4
+
+
+
+
+
+ <./figure/logo.jpg>] [5 <./figure/hierarchy.png>] [6]) [7] [8]
+\openout2 = `Chapters/Chapter3.aux'.
+
+
+(./Chapters/Chapter3.tex
+Underfull \hbox (badness 1092) in paragraph at lines 50--50
+[]|\OT1/minntx/m/n/12 Week 3 (Oct
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 57--57
+[]|\OT1/minntx/m/n/12 Week 4 (Oct
+ []
+
+[9
+
+
+
+
+
+] [10]
+<figure/Affiliate/code.png, id=75, 1330.9725pt x 1933.2225pt>
+File: figure/Affiliate/code.png Graphic file (type png)
+<use figure/Affiliate/code.png>
+Package pdftex.def Info: figure/Affiliate/code.png  used on input line 114.
+(pdftex.def)             Requested size: 434.04349pt x 630.44327pt.
+<figure/Affiliate/Screenshot 2026-01-09 133757.png, id=77, 654.19406pt x 360.59
+718pt>
+File: figure/Affiliate/Screenshot 2026-01-09 133757.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133757.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133757.png  use
+d on input line 121.
+(pdftex.def)             Requested size: 435.0429pt x 239.7996pt.
+<figure/Affiliate/Screenshot 2026-01-09 133806.png, id=78, 657.2053pt x 493.092
+2pt>
+File: figure/Affiliate/Screenshot 2026-01-09 133806.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133806.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133806.png  use
+d on input line 128.
+(pdftex.def)             Requested size: 435.0429pt x 326.41245pt.
+<figure/Affiliate/FAQ.png, id=79, 650.43pt x 619.56468pt>
+File: figure/Affiliate/FAQ.png Graphic file (type png)
+<use figure/Affiliate/FAQ.png>
+Package pdftex.def Info: figure/Affiliate/FAQ.png  used on input line 135.
+(pdftex.def)             Requested size: 435.0429pt x 414.40659pt.
+<figure/Affiliate/Screenshot 2026-01-09 133939.png, id=80, 652.68843pt x 265.74
+281pt>
+File: figure/Affiliate/Screenshot 2026-01-09 133939.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133939.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133939.png  use
+d on input line 142.
+(pdftex.def)             Requested size: 435.0429pt x 177.1344pt.
+ [11] [12 <./figure/Affiliate/code.png>] [13 <./figure/Affiliate/Screenshot 202
+6-01-09 133757.png> <./figure/Affiliate/Screenshot 2026-01-09 133806.png>] [14 
+<./figure/Affiliate/FAQ.png> <./figure/Affiliate/Screenshot 2026-01-09 133939.p
+ng>]
+<figure/blog/customcomponent.png, id=98, 1176.395pt x 712.6625pt>
+File: figure/blog/customcomponent.png Graphic file (type png)
+<use figure/blog/customcomponent.png>
+Package pdftex.def Info: figure/blog/customcomponent.png  used on input line 15
+3.
+(pdftex.def)             Requested size: 435.04395pt x 263.5505pt.
+<figure/blog/blogcode.png, id=99, 1933.2225pt x 2390.9325pt>
+File: figure/blog/blogcode.png Graphic file (type png)
+<use figure/blog/blogcode.png>
+Package pdftex.def Info: figure/blog/blogcode.png  used on input line 159.
+(pdftex.def)             Requested size: 435.0448pt x 538.04605pt.
+<figure/blog/bloghome.png, id=100, 911.405pt x 477.785pt>
+File: figure/blog/bloghome.png Graphic file (type png)
+<use figure/blog/bloghome.png>
+Package pdftex.def Info: figure/blog/bloghome.png  used on input line 167.
+(pdftex.def)             Requested size: 391.53593pt x 205.25398pt.
+<figure/blog/signup.png, id=101, 414.04688pt x 448.67625pt>
+File: figure/blog/signup.png Graphic file (type png)
+<use figure/blog/signup.png>
+Package pdftex.def Info: figure/blog/signup.png  used on input line 174.
+(pdftex.def)             Requested size: 391.53593pt x 424.29568pt.
+ [15
+
+] [16 <./figure/blog/customcomponent.png>] [17 <./figure/blog/blogcode.png>] [1
+8 <./figure/blog/bloghome.png> <./figure/blog/signup.png>]
+<figure/OnlineExam/listeningcode.png, id=119, 1762.585pt x 2085.7925pt>
+File: figure/OnlineExam/listeningcode.png Graphic file (type png)
+<use figure/OnlineExam/listeningcode.png>
+Package pdftex.def Info: figure/OnlineExam/listeningcode.png  used on input lin
+e 188.
+(pdftex.def)             Requested size: 435.02415pt x 514.79509pt.
+<figure/OnlineExam/examlistening.png, id=120, 807.51688pt x 440.14438pt>
+File: figure/OnlineExam/examlistening.png Graphic file (type png)
+<use figure/OnlineExam/examlistening.png>
+Package pdftex.def Info: figure/OnlineExam/examlistening.png  used on input lin
+e 194.
+(pdftex.def)             Requested size: 435.0429pt x 237.1237pt.
+<figure/OnlineExam/writingcode.png, id=121, 1903.11pt x 2657.93pt>
+File: figure/OnlineExam/writingcode.png Graphic file (type png)
+<use figure/OnlineExam/writingcode.png>
+Package pdftex.def Info: figure/OnlineExam/writingcode.png  used on input line 
+200.
+(pdftex.def)             Requested size: 435.0345pt x 607.57983pt.
+<figure/OnlineExam/examwriting.png, id=122, 736.25063pt x 506.39188pt>
+File: figure/OnlineExam/examwriting.png Graphic file (type png)
+<use figure/OnlineExam/examwriting.png>
+Package pdftex.def Info: figure/OnlineExam/examwriting.png  used on input line 
+206.
+(pdftex.def)             Requested size: 435.0429pt x 299.23222pt.
+<figure/OnlineExam/readingcode.png, id=123, 1762.585pt x 1971.365pt>
+File: figure/OnlineExam/readingcode.png Graphic file (type png)
+<use figure/OnlineExam/readingcode.png>
+Package pdftex.def Info: figure/OnlineExam/readingcode.png  used on input line 
+212.
+(pdftex.def)             Requested size: 435.02415pt x 486.5532pt.
+<figure/OnlineExam/examreading.png, id=124, 833.1125pt x 489.83pt>
+File: figure/OnlineExam/examreading.png Graphic file (type png)
+<use figure/OnlineExam/examreading.png>
+Package pdftex.def Info: figure/OnlineExam/examreading.png  used on input line 
+219.
+(pdftex.def)             Requested size: 435.0429pt x 255.78934pt.
+
+[19
+
+] [20 <./figure/OnlineExam/listeningcode.png>] [21 <./figure/OnlineExam/examlis
+tening.png>] [22 <./figure/OnlineExam/writingcode.png>] [23 <./figure/OnlineExa
+m/examwriting.png>] [24 <./figure/OnlineExam/readingcode.png>] [25 <./figure/On
+lineExam/examreading.png>]
+<figure/Report/inquirycode.png, id=153, 3910.61pt x 3573.35pt>
+File: figure/Report/inquirycode.png Graphic file (type png)
+<use figure/Report/inquirycode.png>
+Package pdftex.def Info: figure/Report/inquirycode.png  used on input line 231.
+
+(pdftex.def)             Requested size: 435.0429pt x 397.48624pt.
+File: figure/Report/inquirycode.png Graphic file (type png)
+<use figure/Report/inquirycode.png>
+Package pdftex.def Info: figure/Report/inquirycode.png  used on input line 237.
+
+(pdftex.def)             Requested size: 435.00179pt x 397.48624pt.
+<figure/Report/inquiry.png, id=154, 436.63126pt x 292.59312pt>
+File: figure/Report/inquiry.png Graphic file (type png)
+<use figure/Report/inquiry.png>
+Package pdftex.def Info: figure/Report/inquiry.png  used on input line 243.
+(pdftex.def)             Requested size: 435.04453pt x 291.52982pt.
+ [26
+
+] [27 <./figure/Report/inquirycode.png>]
+[28] [29 <./figure/Report/inquiry.png>]
+<figure/ecommerce/loginform.png, id=170, 1515.6625pt x 3191.925pt>
+File: figure/ecommerce/loginform.png Graphic file (type png)
+<use figure/ecommerce/loginform.png>
+Package pdftex.def Info: figure/ecommerce/loginform.png  used on input line 262
+.
+(pdftex.def)             Requested size: 299.3574pt x 630.43481pt.
+<figure/ecommerce/vendorform.png, id=171, 1700.3525pt x 5099.05pt>
+File: figure/ecommerce/vendorform.png Graphic file (type png)
+<use figure/ecommerce/vendorform.png>
+Package pdftex.def Info: figure/ecommerce/vendorform.png  used on input line 26
+9.
+(pdftex.def)             Requested size: 210.2344pt x 630.45503pt.
+<figure/Report/vendortable.png, id=172, 792.46063pt x 420.57124pt>
+File: figure/Report/vendortable.png Graphic file (type png)
+<use figure/Report/vendortable.png>
+Package pdftex.def Info: figure/Report/vendortable.png  used on input line 276.
+
+(pdftex.def)             Requested size: 435.04454pt x 230.88493pt.
+<figure/Report/productdetails.png, id=173, 899.36pt x 474.77374pt>
+File: figure/Report/productdetails.png Graphic file (type png)
+<use figure/Report/productdetails.png>
+Package pdftex.def Info: figure/Report/productdetails.png  used on input line 2
+83.
+(pdftex.def)             Requested size: 435.03633pt x 229.65645pt.
+<figure/Report/productmanagement.png, id=174, 767.86874pt x 462.72874pt>
+File: figure/Report/productmanagement.png Graphic file (type png)
+<use figure/Report/productmanagement.png>
+Package pdftex.def Info: figure/Report/productmanagement.png  used on input lin
+e 290.
+(pdftex.def)             Requested size: 435.05347pt x 262.16948pt.
+<figure/Report/filtereddata.png, id=175, 946.03438pt x 523.9575pt>
+File: figure/Report/filtereddata.png Graphic file (type png)
+<use figure/Report/filtereddata.png>
+Package pdftex.def Info: figure/Report/filtereddata.png  used on input line 297
+.
+(pdftex.def)             Requested size: 435.03674pt x 240.94342pt.
+<figure/Report/productcart.png, id=176, 506.39188pt x 337.76187pt>
+File: figure/Report/productcart.png Graphic file (type png)
+<use figure/Report/productcart.png>
+Package pdftex.def Info: figure/Report/productcart.png  used on input line 304.
+
+(pdftex.def)             Requested size: 435.0558pt x 290.18094pt.
+<figure/Report/websitereview.png, id=177, 947.54pt x 425.08812pt>
+File: figure/Report/websitereview.png Graphic file (type png)
+<use figure/Report/websitereview.png>
+Package pdftex.def Info: figure/Report/websitereview.png  used on input line 31
+1.
+(pdftex.def)             Requested size: 435.03511pt x 195.1667pt.
+<figure/ecommerce/productmanagement.png, id=178, 2473.24pt x 3725.92pt>
+File: figure/ecommerce/productmanagement.png Graphic file (type png)
+<use figure/ecommerce/productmanagement.png>
+Package pdftex.def Info: figure/ecommerce/productmanagement.png  used on input 
+line 318.
+(pdftex.def)             Requested size: 418.48283pt x 630.44168pt.
+<figure/ecommerce/productslider.png, id=179, 2334.7225pt x 2200.22pt>
+File: figure/ecommerce/productslider.png Graphic file (type png)
+<use figure/ecommerce/productslider.png>
+Package pdftex.def Info: figure/ecommerce/productslider.png  used on input line
+ 325.
+(pdftex.def)             Requested size: 435.01628pt x 409.95515pt.
+<figure/ecommerce/varianthandleinproduct.png, id=180, 1485.55pt x 2467.2175pt>
+File: figure/ecommerce/varianthandleinproduct.png Graphic file (type png)
+<use figure/ecommerce/varianthandleinproduct.png>
+Package pdftex.def Info: figure/ecommerce/varianthandleinproduct.png  used on i
+nput line 332.
+(pdftex.def)             Requested size: 379.59227pt x 630.43095pt.
+) [30
+
+] [31 <./figure/ecommerce/loginform.png>] [32 <./figure/ecommerce/vendorform.pn
+g>] [33 <./figure/Report/vendortable.png> <./figure/Report/productdetails.png>]
+ [34 <./figure/Report/productmanagement.png> <./figure/Report/filtereddata.png>
+] [35 <./figure/Report/productcart.png> <./figure/Report/websitereview.png>] [3
+6 <./figure/ecommerce/productmanagement.png>] [37 <./figure/ecommerce/productsl
+ider.png>] [38 <./figure/ecommerce/varianthandleinproduct.png>]
+\openout2 = `Chapters/Chapter4.aux'.
+
+ (./Chapters/Chapter4.tex [39
+
+
+
+
+
+]) [40] [41
+
+
+
+
+
+]
+\openout2 = `Chapters/Chapter6.aux'.
+
+
+(./Chapters/Chapter6.tex
+File: figure/Affiliate/Screenshot 2026-01-09 133757.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133757.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133757.png  use
+d on input line 10.
+(pdftex.def)             Requested size: 391.53593pt x 215.81525pt.
+File: figure/Affiliate/Screenshot 2026-01-09 133806.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133806.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133806.png  use
+d on input line 15.
+(pdftex.def)             Requested size: 391.53593pt x 293.76593pt.
+<figure/Affiliate/Screenshot 2026-01-09 133815.png, id=231, 648.17157pt x 310.9
+1156pt>
+File: figure/Affiliate/Screenshot 2026-01-09 133815.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133815.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133815.png  use
+d on input line 20.
+(pdftex.def)             Requested size: 391.53593pt x 187.8103pt.
+<figure/Affiliate/Screenshot 2026-01-09 133827.png, id=232, 649.67719pt x 603.7
+5563pt>
+File: figure/Affiliate/Screenshot 2026-01-09 133827.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133827.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133827.png  use
+d on input line 25.
+(pdftex.def)             Requested size: 391.53593pt x 363.86836pt.
+<figure/Affiliate/Screenshot 2026-01-09 133837.png, id=233, 576.65437pt x 307.9
+0031pt>
+File: figure/Affiliate/Screenshot 2026-01-09 133837.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133837.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133837.png  use
+d on input line 30.
+(pdftex.def)             Requested size: 391.53593pt x 209.06406pt.
+<figure/Affiliate/Screenshot 2026-01-09 133848.png, id=234, 648.17157pt x 517.1
+8219pt>
+File: figure/Affiliate/Screenshot 2026-01-09 133848.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133848.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133848.png  use
+d on input line 35.
+(pdftex.def)             Requested size: 391.53593pt x 312.41086pt.
+<figure/Affiliate/Screenshot 2026-01-09 133914.png, id=235, 652.68843pt x 603.7
+5563pt>
+File: figure/Affiliate/Screenshot 2026-01-09 133914.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133914.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133914.png  use
+d on input line 40.
+(pdftex.def)             Requested size: 391.53593pt x 362.19168pt.
+File: figure/Affiliate/Screenshot 2026-01-09 133939.png Graphic file (type png)
+
+<use figure/Affiliate/Screenshot 2026-01-09 133939.png>
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133939.png  use
+d on input line 45.
+(pdftex.def)             Requested size: 391.53593pt x 159.41852pt.
+ [42
+
+
+
+] [43 <./figure/Affiliate/Screenshot 2026-01-09 133815.png> <./figure/Affiliate
+/Screenshot 2026-01-09 133827.png>] [44 <./figure/Affiliate/Screenshot 2026-01-
+09 133837.png> <./figure/Affiliate/Screenshot 2026-01-09 133848.png>] [45 <./fi
+gure/Affiliate/Screenshot 2026-01-09 133914.png>]
+<figure/Report/adminlogin.png, id=254, 733.74126pt x 487.8225pt>
+File: figure/Report/adminlogin.png Graphic file (type png)
+<use figure/Report/adminlogin.png>
+Package pdftex.def Info: figure/Report/adminlogin.png  used on input line 53.
+(pdftex.def)             Requested size: 348.03563pt x 231.39058pt.
+<figure/Report/addvendorform.png, id=255, 612.78937pt x 418.56375pt>
+File: figure/Report/addvendorform.png Graphic file (type png)
+<use figure/Report/addvendorform.png>
+Package pdftex.def Info: figure/Report/addvendorform.png  used on input line 54
+.
+(pdftex.def)             Requested size: 348.03563pt x 237.72159pt.
+File: figure/Report/vendortable.png Graphic file (type png)
+<use figure/Report/vendortable.png>
+Package pdftex.def Info: figure/Report/vendortable.png  used on input line 59.
+(pdftex.def)             Requested size: 391.53593pt x 207.79515pt.
+File: figure/Report/productmanagement.png Graphic file (type png)
+<use figure/Report/productmanagement.png>
+Package pdftex.def Info: figure/Report/productmanagement.png  used on input lin
+e 64.
+(pdftex.def)             Requested size: 391.53593pt x 235.94617pt.
+File: figure/Report/productdetails.png Graphic file (type png)
+<use figure/Report/productdetails.png>
+Package pdftex.def Info: figure/Report/productdetails.png  used on input line 6
+9.
+(pdftex.def)             Requested size: 391.53593pt x 206.69153pt.
+File: figure/Report/productcart.png Graphic file (type png)
+<use figure/Report/productcart.png>
+Package pdftex.def Info: figure/Report/productcart.png  used on input line 74.
+(pdftex.def)             Requested size: 391.53593pt x 261.15974pt.
+File: figure/Report/websitereview.png Graphic file (type png)
+<use figure/Report/websitereview.png>
+Package pdftex.def Info: figure/Report/websitereview.png  used on input line 79
+.
+(pdftex.def)             Requested size: 391.53593pt x 175.64938pt.
+<figure/Report/carousel.png, id=256, 949.04562pt x 316.18124pt>
+File: figure/Report/carousel.png Graphic file (type png)
+<use figure/Report/carousel.png>
+Package pdftex.def Info: figure/Report/carousel.png  used on input line 84.
+(pdftex.def)             Requested size: 391.53593pt x 130.44084pt.
+File: figure/Report/filtereddata.png Graphic file (type png)
+<use figure/Report/filtereddata.png>
+Package pdftex.def Info: figure/Report/filtereddata.png  used on input line 89.
+
+(pdftex.def)             Requested size: 391.53593pt x 216.84668pt.
+<figure/Report/forgotpassord.png, id=257, 377.91188pt x 226.34563pt>
+File: figure/Report/forgotpassord.png Graphic file (type png)
+<use figure/Report/forgotpassord.png>
+Package pdftex.def Info: figure/Report/forgotpassord.png  used on input line 94
+.
+(pdftex.def)             Requested size: 391.53593pt x 234.50627pt.
+)
+[46
+
+ <./figure/Report/adminlogin.png> <./figure/Report/addvendorform.png>]
+[47] [48 <./figure/Report/carousel.png>] [49 <./figure/Report/forgotpassord.png
+>] (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
+(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter6.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 21727 strings out of 474222
+ 380203 string characters out of 5748734
+ 1949975 words of memory out of 5000000
+ 43640 multiletter control sequences out of 15000+600000
+ 588007 words of font info for 90 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 80i,12n,117p,1193b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/newtx/ztmbi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.p
+fb>
+Output written on main.pdf (59 pages, 10358223 bytes).
+PDF statistics:
+ 301 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+
