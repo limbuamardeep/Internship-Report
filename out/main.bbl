@@ -1,0 +1,459 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{javascript_info}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b2fe84e7aad6bf7d61869a684027a7b5}{%
+           family={{JavaScript.info}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{fullhash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{fullhashraw}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{bibnamehash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{authorbibnamehash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{authornamehash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{authorfullhash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{authorfullhashraw}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The modern {JavaScript} tutorial}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://javascript.info
+      \endverb
+      \verb{url}
+      \verb https://javascript.info
+      \endverb
+    \endentry
+    \entry{shadcn_ui}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8adbd8edffc7efe5e0dec0c5ca194d49}{%
+           family={{shadcn/ui}},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{fullhash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{fullhashraw}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{bibnamehash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{authorbibnamehash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{authornamehash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{authorfullhash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{authorfullhashraw}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{shadcn/ui: Beautiful, customizable {React} components}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://ui.shadcn.com
+      \endverb
+      \verb{url}
+      \verb https://ui.shadcn.com
+      \endverb
+    \endentry
+    \entry{tanstack_query}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dd55379b93ec80f16ff6253eb004a35}{%
+           family={{TanStack}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{bibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorbibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authornamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{TanStack Query}: Powerful asynchronous state management}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tanstack.com/query/latest
+      \endverb
+      \verb{url}
+      \verb https://tanstack.com/query/latest
+      \endverb
+    \endentry
+    \entry{tanstack_router}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dd55379b93ec80f16ff6253eb004a35}{%
+           family={{TanStack}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{bibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorbibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authornamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{TanStack Router}: Type-safe routing for modern web applications}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tanstack.com/router/latest
+      \endverb
+      \verb{url}
+      \verb https://tanstack.com/router/latest
+      \endverb
+    \endentry
+    \entry{tanstack_table}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dd55379b93ec80f16ff6253eb004a35}{%
+           family={{TanStack}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{bibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorbibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authornamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \field{extraname}{3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{TanStack Table}: Headless {UI} for building powerful tables and datagrids}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tanstack.com/table/latest
+      \endverb
+      \verb{url}
+      \verb https://tanstack.com/table/latest
+      \endverb
+    \endentry
+    \entry{w3schools_js}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bd21525362368ddbd79358cdcf66005d}{%
+           family={{W3Schools}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{fullhash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{fullhashraw}{bd21525362368ddbd79358cdcf66005d}
+      \strng{bibnamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorbibnamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authornamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorfullhash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorfullhashraw}{bd21525362368ddbd79358cdcf66005d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{JavaScript} tutorial}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.w3schools.com/js/
+      \endverb
+      \verb{url}
+      \verb https://www.w3schools.com/js/
+      \endverb
+    \endentry
+    \entry{zod_dev}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=955fa1d4a53faef2bb3110c873cb2ed6}{%
+           family={{Zod}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{fullhash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{fullhashraw}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{bibnamehash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{authorbibnamehash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{authornamehash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{authorfullhash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{authorfullhashraw}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zod documentation}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://zod.dev
+      \endverb
+      \verb{url}
+      \verb https://zod.dev
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{javascript_info}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b2fe84e7aad6bf7d61869a684027a7b5}{%
+           family={{JavaScript.info}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{fullhash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{fullhashraw}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{bibnamehash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{authorbibnamehash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{authornamehash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{authorfullhash}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \strng{authorfullhashraw}{b2fe84e7aad6bf7d61869a684027a7b5}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The modern {JavaScript} tutorial}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://javascript.info
+      \endverb
+      \verb{url}
+      \verb https://javascript.info
+      \endverb
+    \endentry
+    \entry{shadcn_ui}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8adbd8edffc7efe5e0dec0c5ca194d49}{%
+           family={{shadcn/ui}},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{fullhash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{fullhashraw}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{bibnamehash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{authorbibnamehash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{authornamehash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{authorfullhash}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \strng{authorfullhashraw}{8adbd8edffc7efe5e0dec0c5ca194d49}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{shadcn/ui: Beautiful, customizable {React} components}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://ui.shadcn.com
+      \endverb
+      \verb{url}
+      \verb https://ui.shadcn.com
+      \endverb
+    \endentry
+    \entry{tanstack_query}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dd55379b93ec80f16ff6253eb004a35}{%
+           family={{TanStack}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{bibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorbibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authornamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{TanStack Query}: Powerful asynchronous state management}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tanstack.com/query/latest
+      \endverb
+      \verb{url}
+      \verb https://tanstack.com/query/latest
+      \endverb
+    \endentry
+    \entry{tanstack_router}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dd55379b93ec80f16ff6253eb004a35}{%
+           family={{TanStack}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{bibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorbibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authornamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{TanStack Router}: Type-safe routing for modern web applications}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tanstack.com/router/latest
+      \endverb
+      \verb{url}
+      \verb https://tanstack.com/router/latest
+      \endverb
+    \endentry
+    \entry{tanstack_table}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dd55379b93ec80f16ff6253eb004a35}{%
+           family={{TanStack}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{fullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{bibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorbibnamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authornamehash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhash}{9dd55379b93ec80f16ff6253eb004a35}
+      \strng{authorfullhashraw}{9dd55379b93ec80f16ff6253eb004a35}
+      \field{extraname}{3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{TanStack Table}: Headless {UI} for building powerful tables and datagrids}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tanstack.com/table/latest
+      \endverb
+      \verb{url}
+      \verb https://tanstack.com/table/latest
+      \endverb
+    \endentry
+    \entry{w3schools_js}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bd21525362368ddbd79358cdcf66005d}{%
+           family={{W3Schools}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{fullhash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{fullhashraw}{bd21525362368ddbd79358cdcf66005d}
+      \strng{bibnamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorbibnamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authornamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorfullhash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorfullhashraw}{bd21525362368ddbd79358cdcf66005d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{JavaScript} tutorial}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.w3schools.com/js/
+      \endverb
+      \verb{url}
+      \verb https://www.w3schools.com/js/
+      \endverb
+    \endentry
+    \entry{zod_dev}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=955fa1d4a53faef2bb3110c873cb2ed6}{%
+           family={{Zod}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{fullhash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{fullhashraw}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{bibnamehash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{authorbibnamehash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{authornamehash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{authorfullhash}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \strng{authorfullhashraw}{955fa1d4a53faef2bb3110c873cb2ed6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zod documentation}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://zod.dev
+      \endverb
+      \verb{url}
+      \verb https://zod.dev
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -109,12 +109,7 @@ Week 10 (Dec 8-12) & \tabitems{
 
 The Hoslog Affiliate Landing Page was developed using React.js in combination with vanilla CSS. The primary objective of the project was to translate a predefined Figma design into a fully functional and responsive web application. Particular emphasis was placed on maintaining visual fidelity to the original design, ensuring cross-device compatibility through the use of CSS media queries, and enhancing overall user experience. The development process incorporated responsive layout techniques and interactive UI components to improve usability. Additionally, the landing page was tested across multiple web browsers to ensure consistent performance and functionality in different browsing environments.    
 
-\begin{figure}[p]
-    \centering
-    \includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{figure/Affiliate/code.png}
-    \caption{Code Snippet of Hoslog Affiliate Landing Page}
-    \label{fig:hoslog-landing-page-full}
-\end{figure} 
+
 
 \begin{figure}[htbp]
     \centering
@@ -148,18 +143,8 @@ The Hoslog Affiliate Landing Page was developed using React.js in combination wi
 \subsection*{2. Blog Site Clone}
 
 The Blog Site Landing Page comprises three primary features developed using React with TypeScript. The Homepage implements pagination functionality with six articles per page, utilizing React Router's searchParams API to maintain state and Tailwind CSS media queries for responsive design across devices. The ScrollToTop utility component monitors route changes via the useLocation hook and automatically scrolls the viewport to the page top with smooth behavior, enhancing navigation experience in the single-page application. The Signup page integrates schema-based form validation using Zod and React Hook Form, capturing user credentials with real-time error feedback and asynchronous submission handling, providing a seamless user registration experience with confirmation messaging and navigation capabilities.
-    \begin{figure}[p]
-                \centering
-                \includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{\detokenize{figure/blog/customcomponent.png}}
-                \caption{Code Snippet of Custom Hook for Scroll to Top}
-                \label{fig:blog-site-custom-hook}
-        \end{figure}
-\begin{figure}[p]
-    \centering
-     \includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{\detokenize{figure/blog/blogcode.png}}
-    \caption{Code Snippet of Blog Site Clone}
-    \label{fig:blog-site-code}
- \end{figure}
+  
+
 
   
 \begin{figure}[htbp]
@@ -183,35 +168,19 @@ The Online Exam Application utilizes a structured navigation system built with R
 The navigation logic is designed to guide users through a linear examination flow, starting with an automatic redirect from the root path to the first assessment module. By using programmatic navigation with history management, the system prevents users from accidentally navigating back into an empty state, ensuring the integrity of the testing session. The application is divided into four primary segments—Listening, Reading, Writing, and a final Summary—each mapped to a specific URL path to maintain a clear and organized single-page structure.
 
 By leveraging a component-based routing approach paired with TypeScript, the system achieves high type safety and prevents common navigation errors. This ensures that as a student progresses from listening comprehension through to the final writing assessment, the transition is fluid and the underlying data remains synchronized. The final summary interface serves as a comprehensive conclusion to the workflow, pulling all stored state together to provide a clear overview of the completed examination.
-\begin{figure}[p]
-    \centering
-     \includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{\detokenize{figure/OnlineExam/listeningcode.png}}
-    \caption{Code Snippet of Online Exam Site Routing}
-    \label{fig:online-exam-site-code}
-\end{figure}
+
 \begin{figure}[htbp]
     \centering
      \includegraphics[width=1\linewidth]{\detokenize{figure/OnlineExam/examlistening.png}}
     \caption{Online Exam Site Listening Section}
     \label{fig:online-exam-site-listening}
 \end{figure}
-\begin{figure}[p]
-    \centering
-     \includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{\detokenize{figure/OnlineExam/writingcode.png}}
-    \caption{Online Exam Site Speaking Section}
-    \label{fig:online-exam-site-speaking}
-\end{figure}
+
 \begin{figure}[htbp]
     \centering
      \includegraphics[width=1\linewidth]{\detokenize{figure/OnlineExam/examwriting.png}}
     \caption{Online Exam Site Writing Section}
     \label{fig:online-exam-site-writing}
-\end{figure}
-\begin{figure}[p]
-    \centering
-     \includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{\detokenize{figure/OnlineExam/readingcode.png}}
-    \caption{Code Snippet of Online Exam Site Summary Section}
-    \label{fig:online-exam-site-summary-code}
 \end{figure}
 
 \begin{figure}[htbp]
@@ -226,19 +195,9 @@ The Square Japan landing page was developed using Next.js, meticulously translat
 
 Information architecture was a key focus, particularly within the FAQ section. Utilizing Shadcn UI components, this area features an accordion-based layout to keep the interface clean while providing immediate answers to common questions. To further improve usability, a tabbed navigation system was integrated, allowing users to switch between different FAQ categories effortlessly. This ensures that even large volumes of information remain organized and accessible without cluttering the landing page.
 
-The communication and recruitment workflows were designed for maximum reliability and brand consistency. A dedicated modal dialog was implemented for the “Join Our Team” feature, offering a streamlined path for applicants to submit their details. Behind the scenes, custom email templates were developed for both general inquiries and recruitment forms to ensure all outreach reflects the professional branding of the project. These workflows are powered by the Resend email service, which automates confirmation messages to provide users with immediate and reliable feedback upon every submission.\begin{figure}[htbp]
-    \centering
-     \includegraphics[width=1\linewidth]{\detokenize{figure/Report/inquirycode.png}}
-    \caption{Code Snippet of Square Japan inquiry Page}
-    \label{fig:square-japan-inquiry-code}
-\end{figure}
-\begin{figure}[p]
-    \centering
-     \includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{\detokenize{figure/Report/inquirycode.png}}
-    \caption{Code snippet of the Square Japan inquiry page (full view)}
-    \label{fig:square-japan-inquiry-code-full}
-\end{figure}
-\begin{figure}[p]
+The communication and recruitment workflows were designed for maximum reliability and brand consistency. A dedicated modal dialog was implemented for the “Join Our Team” feature, offering a streamlined path for applicants to submit their details. Behind the scenes, custom email templates were developed for both general inquiries and recruitment forms to ensure all outreach reflects the professional branding of the project. These workflows are powered by the Resend email service, which automates confirmation messages to provide users with immediate and reliable feedback upon every submission.
+
+\begin{figure}[htbp]
     \centering
      \includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{\detokenize{figure/Report/inquiry.png}}
     \caption{Code Snippet of Square Japan Landing Page}
