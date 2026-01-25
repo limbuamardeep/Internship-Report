@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.15)  23 JAN 2026 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.24)  25 JAN 2026 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/amar/Latex/Internship-Report/main
-(/home/amar/Latex/Internship-Report/main.tex
+**/home/light/report/Internship-Report/main
+(/home/light/report/Internship-Report/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/report.cls
@@ -175,7 +175,9 @@ LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
- (/usr/share/texmf-dist/tex/generic/kastrup/binhex.tex)
+ (./binhex.tex
+File: binhex.tex 
+)
 \ntx@tmpcnta=\count291
 \ntx@cnt=\count292
  (/usr/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty
@@ -276,7 +278,9 @@ LaTeX Info: Redefining \] on input line 2954.
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
 \tx@cntz=\count305
- (/usr/share/texmf-dist/tex/generic/kastrup/binhex.tex)
+ (./binhex.tex
+File: binhex.tex 
+)
 \tx@Isdigit=\count306
 \tx@IsAlNum=\count307
 \tx@tA=\toks30
@@ -860,7 +864,7 @@ File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 156.
- (/home/amar/Latex/Internship-Report/out/main.aux (/home/amar/Latex/Internship-Report/out/Chapters/Chapter1.aux) (/home/amar/Latex/Internship-Report/out/Chapters/Chapter2.aux) (/home/amar/Latex/Internship-Report/out/Chapters/Chapter3.aux) (/home/amar/Latex/Internship-Report/out/Chapters/Chapter4.aux) (/home/amar/Latex/Internship-Report/out/Chapters/Chapter6.aux))
+ (/home/light/report/Internship-Report/out/main.aux (/home/light/report/Internship-Report/out/Chapters/Chapter1.aux) (/home/light/report/Internship-Report/out/Chapters/Chapter2.aux) (/home/light/report/Internship-Report/out/Chapters/Chapter3.aux) (/home/light/report/Internship-Report/out/Chapters/Chapter4.aux) (/home/light/report/Internship-Report/out/Chapters/Chapter6.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 156.
@@ -990,7 +994,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/home/amar/Latex/Internship-Report/out/main.bbl)
+ (/home/light/report/Internship-Report/out/main.bbl)
 Package biblatex Info: Reference section=0 on input line 156.
 Package biblatex Info: Reference segment=0 on input line 156.
 \c@lstlisting=\count496
@@ -998,29 +1002,29 @@ Package biblatex Info: Reference segment=0 on input line 156.
 <figure/logop.jpg, id=1, 636.6987pt x 752.0898pt>
 File: figure/logop.jpg Graphic file (type jpg)
 <use figure/logop.jpg>
-Package pdftex.def Info: figure/logop.jpg  used on input line 178.
+Package pdftex.def Info: figure/logop.jpg  used on input line 174.
 (pdftex.def)             Requested size: 130.51436pt x 142.25589pt.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 181.
+(Font)              scaled to size 17.28pt on input line 177.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 182.
+(Font)              scaled to size 17.28pt on input line 178.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 189.
+(Font)              scaled to size 14.4pt on input line 185.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 192.
+(Font)              scaled to size 14.4pt on input line 188.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 14.4pt on input line 197.
+(Font)              scaled to size 14.4pt on input line 193.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
-(Font)              scaled to size 14.4pt on input line 197.
+(Font)              scaled to size 14.4pt on input line 193.
 
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc} <./figure/logop.jpg>]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 214.
+(Font)              scaled to size 12.0pt on input line 210.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 16.0pt on input line 214.
+(Font)              scaled to size 16.0pt on input line 210.
 
 
 [1
@@ -1038,13 +1042,13 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 
 ]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 313.
+(Font)              scaled to size 12.0pt on input line 309.
 
 
 [4
 
 
-] (/home/amar/Latex/Internship-Report/out/main.toc
+] (/home/light/report/Internship-Report/out/main.toc
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 1.
  (/usr/share/texmf-dist/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
@@ -1117,7 +1121,7 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 
 
 
-[6] (/home/amar/Latex/Internship-Report/out/main.lof)
+[6] (/home/light/report/Internship-Report/out/main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -1125,7 +1129,7 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 
 [7
 
-] (/home/amar/Latex/Internship-Report/out/main.lot)
+] (/home/light/report/Internship-Report/out/main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
@@ -1145,12 +1149,6 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
  (./Chapters/Chapter1.tex
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.0pt on input line 4.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 17.
- (/usr/share/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 17.
 
 
 [1
@@ -1158,29 +1156,38 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 
 
-{/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 16.
+ (/usr/share/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 16.
 
-[2])
 
-[3
+[2{/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+
+[3])
+
+[4
 
 ]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
-<figure/logo.jpg, id=50, 455.45157pt x 76.78688pt>
+<figure/logo.jpg, id=53, 455.45157pt x 76.78688pt>
 File: figure/logo.jpg Graphic file (type jpg)
 <use figure/logo.jpg>
 Package pdftex.def Info: figure/logo.jpg  used on input line 17.
 (pdftex.def)             Requested size: 435.0429pt x 73.34782pt.
-<figure/hierarchy.png, id=51, 341.02406pt x 203.25937pt>
+<figure/hierarchy.png, id=54, 341.02406pt x 203.25937pt>
 File: figure/hierarchy.png Graphic file (type png)
 <use figure/hierarchy.png>
 Package pdftex.def Info: figure/hierarchy.png  used on input line 39.
 (pdftex.def)             Requested size: 435.0429pt x 259.31198pt.
 
 
-[4
+[5
 
 
 
@@ -1188,191 +1195,163 @@ Package pdftex.def Info: figure/hierarchy.png  used on input line 39.
 
  <./figure/logo.jpg>]
 
-[5 <./figure/hierarchy.png>]
+[6 <./figure/hierarchy.png>]
 
-[6])
-
-[7]
+[7])
 
 [8]
+
+[9]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
-Underfull \hbox (badness 1092) in paragraph at lines 50--50
+Underfull \hbox (badness 1092) in paragraph at lines 49--49
 []|\OT1/minntx/m/n/12 Week 3 (Oct
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 57--57
+Underfull \hbox (badness 1092) in paragraph at lines 56--56
 []|\OT1/minntx/m/n/12 Week 4 (Oct
  []
 
-[9
+[10
 
 
 
 
 
-] [10]
-<figure/Affiliate/Screenshot 2026-01-09 133757.png, id=75, 654.19406pt x 360.59718pt>
+] [11]
+<figure/Affiliate/Screenshot 2026-01-09 133757.png, id=78, 654.19406pt x 360.59718pt>
 File: figure/Affiliate/Screenshot 2026-01-09 133757.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133757.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133757.png  used on input line 116.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133757.png  used on input line 115.
 (pdftex.def)             Requested size: 435.0429pt x 239.7996pt.
-<figure/Affiliate/Screenshot 2026-01-09 133806.png, id=77, 657.2053pt x 493.0922pt>
+<figure/Affiliate/Screenshot 2026-01-09 133806.png, id=80, 657.2053pt x 493.0922pt>
 File: figure/Affiliate/Screenshot 2026-01-09 133806.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133806.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133806.png  used on input line 123.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133806.png  used on input line 122.
 (pdftex.def)             Requested size: 435.0429pt x 326.41245pt.
-<figure/Affiliate/FAQ.png, id=78, 650.43pt x 619.56468pt>
+<figure/Affiliate/FAQ.png, id=81, 650.43pt x 619.56468pt>
 File: figure/Affiliate/FAQ.png Graphic file (type png)
 <use figure/Affiliate/FAQ.png>
-Package pdftex.def Info: figure/Affiliate/FAQ.png  used on input line 130.
+Package pdftex.def Info: figure/Affiliate/FAQ.png  used on input line 129.
 (pdftex.def)             Requested size: 435.0429pt x 414.40659pt.
-<figure/Affiliate/Screenshot 2026-01-09 133939.png, id=79, 652.68843pt x 265.74281pt>
+<figure/Affiliate/Screenshot 2026-01-09 133939.png, id=82, 652.68843pt x 265.74281pt>
 File: figure/Affiliate/Screenshot 2026-01-09 133939.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133939.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133939.png  used on input line 137.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133939.png  used on input line 136.
 (pdftex.def)             Requested size: 435.0429pt x 177.1344pt.
 
 
-[11 <./figure/Affiliate/Screenshot 2026-01-09 133757.png>]
+[12]
 
-[12 <./figure/Affiliate/Screenshot 2026-01-09 133806.png>]
+[13 <./figure/Affiliate/Screenshot 2026-01-09 133757.png> <./figure/Affiliate/Screenshot 2026-01-09 133806.png>]
 
-[13 <./figure/Affiliate/FAQ.png> <./figure/Affiliate/Screenshot 2026-01-09 133939.png>]
-<figure/blog/bloghome.png, id=93, 911.405pt x 477.785pt>
+[14 <./figure/Affiliate/FAQ.png> <./figure/Affiliate/Screenshot 2026-01-09 133939.png>]
+<figure/blog/bloghome.png, id=96, 911.405pt x 477.785pt>
 File: figure/blog/bloghome.png Graphic file (type png)
 <use figure/blog/bloghome.png>
-Package pdftex.def Info: figure/blog/bloghome.png  used on input line 152.
+Package pdftex.def Info: figure/blog/bloghome.png  used on input line 151.
 (pdftex.def)             Requested size: 391.53593pt x 205.25398pt.
-<figure/blog/signup.png, id=94, 414.04688pt x 448.67625pt>
+<figure/blog/signup.png, id=97, 414.04688pt x 448.67625pt>
 File: figure/blog/signup.png Graphic file (type png)
 <use figure/blog/signup.png>
-Package pdftex.def Info: figure/blog/signup.png  used on input line 159.
+Package pdftex.def Info: figure/blog/signup.png  used on input line 158.
 (pdftex.def)             Requested size: 391.53593pt x 424.29568pt.
 
 
-[14
+[15
 
  <./figure/blog/bloghome.png>]
 
-[15 <./figure/blog/signup.png>]
-<figure/OnlineExam/examlistening.png, id=104, 807.51688pt x 440.14438pt>
+[16 <./figure/blog/signup.png>]
+<figure/OnlineExam/examlistening.png, id=107, 807.51688pt x 440.14438pt>
 File: figure/OnlineExam/examlistening.png Graphic file (type png)
 <use figure/OnlineExam/examlistening.png>
-Package pdftex.def Info: figure/OnlineExam/examlistening.png  used on input line 174.
+Package pdftex.def Info: figure/OnlineExam/examlistening.png  used on input line 173.
 (pdftex.def)             Requested size: 435.0429pt x 237.1237pt.
-<figure/OnlineExam/examwriting.png, id=105, 736.25063pt x 506.39188pt>
+<figure/OnlineExam/examwriting.png, id=108, 736.25063pt x 506.39188pt>
 File: figure/OnlineExam/examwriting.png Graphic file (type png)
 <use figure/OnlineExam/examwriting.png>
-Package pdftex.def Info: figure/OnlineExam/examwriting.png  used on input line 181.
+Package pdftex.def Info: figure/OnlineExam/examwriting.png  used on input line 180.
 (pdftex.def)             Requested size: 435.0429pt x 299.23222pt.
-<figure/OnlineExam/examreading.png, id=106, 833.1125pt x 489.83pt>
+<figure/OnlineExam/examreading.png, id=109, 833.1125pt x 489.83pt>
 File: figure/OnlineExam/examreading.png Graphic file (type png)
 <use figure/OnlineExam/examreading.png>
-Package pdftex.def Info: figure/OnlineExam/examreading.png  used on input line 188.
+Package pdftex.def Info: figure/OnlineExam/examreading.png  used on input line 187.
 (pdftex.def)             Requested size: 435.0429pt x 255.78934pt.
 
 
-[16
+[17
 
  <./figure/OnlineExam/examlistening.png>]
 
-[17 <./figure/OnlineExam/examwriting.png> <./figure/OnlineExam/examreading.png>]
-<figure/Report/inquiry.png, id=116, 436.63126pt x 292.59312pt>
+[18 <./figure/OnlineExam/examwriting.png> <./figure/OnlineExam/examreading.png>]
+<figure/Report/recruitment.png, id=119, 429.10312pt x 391.96437pt>
+File: figure/Report/recruitment.png Graphic file (type png)
+<use figure/Report/recruitment.png>
+Package pdftex.def Info: figure/Report/recruitment.png  used on input line 201.
+(pdftex.def)             Requested size: 435.04726pt x 397.39404pt.
+<figure/Report/inquiry.png, id=120, 436.63126pt x 292.59312pt>
 File: figure/Report/inquiry.png Graphic file (type png)
 <use figure/Report/inquiry.png>
-Package pdftex.def Info: figure/Report/inquiry.png  used on input line 202.
+Package pdftex.def Info: figure/Report/inquiry.png  used on input line 208.
 (pdftex.def)             Requested size: 435.04453pt x 291.52982pt.
 
 
-[18
+[19
 
 ]
 
-[19 <./figure/Report/inquiry.png>]
-<figure/ecommerce/loginform.png, id=124, 1515.6625pt x 3191.925pt>
-File: figure/ecommerce/loginform.png Graphic file (type png)
-<use figure/ecommerce/loginform.png>
-Package pdftex.def Info: figure/ecommerce/loginform.png  used on input line 221.
-(pdftex.def)             Requested size: 299.3574pt x 630.43481pt.
-<figure/ecommerce/vendorform.png, id=125, 1700.3525pt x 5099.05pt>
-File: figure/ecommerce/vendorform.png Graphic file (type png)
-<use figure/ecommerce/vendorform.png>
-Package pdftex.def Info: figure/ecommerce/vendorform.png  used on input line 228.
-(pdftex.def)             Requested size: 210.2344pt x 630.45503pt.
-<figure/Report/vendortable.png, id=126, 792.46063pt x 420.57124pt>
+[20 <./figure/Report/recruitment.png>]
+
+[21 <./figure/Report/inquiry.png>]
+<figure/Report/vendortable.png, id=133, 792.46063pt x 420.57124pt>
 File: figure/Report/vendortable.png Graphic file (type png)
 <use figure/Report/vendortable.png>
-Package pdftex.def Info: figure/Report/vendortable.png  used on input line 235.
+Package pdftex.def Info: figure/Report/vendortable.png  used on input line 228.
 (pdftex.def)             Requested size: 435.04454pt x 230.88493pt.
-<figure/Report/productdetails.png, id=127, 899.36pt x 474.77374pt>
+<figure/Report/productdetails.png, id=134, 899.36pt x 474.77374pt>
 File: figure/Report/productdetails.png Graphic file (type png)
 <use figure/Report/productdetails.png>
-Package pdftex.def Info: figure/Report/productdetails.png  used on input line 242.
+Package pdftex.def Info: figure/Report/productdetails.png  used on input line 235.
 (pdftex.def)             Requested size: 435.03633pt x 229.65645pt.
-<figure/Report/productmanagement.png, id=128, 767.86874pt x 462.72874pt>
+<figure/Report/productmanagement.png, id=135, 767.86874pt x 462.72874pt>
 File: figure/Report/productmanagement.png Graphic file (type png)
 <use figure/Report/productmanagement.png>
-Package pdftex.def Info: figure/Report/productmanagement.png  used on input line 249.
+Package pdftex.def Info: figure/Report/productmanagement.png  used on input line 242.
 (pdftex.def)             Requested size: 435.05347pt x 262.16948pt.
-<figure/Report/filtereddata.png, id=129, 946.03438pt x 523.9575pt>
+<figure/Report/filtereddata.png, id=136, 946.03438pt x 523.9575pt>
 File: figure/Report/filtereddata.png Graphic file (type png)
 <use figure/Report/filtereddata.png>
-Package pdftex.def Info: figure/Report/filtereddata.png  used on input line 256.
+Package pdftex.def Info: figure/Report/filtereddata.png  used on input line 249.
 (pdftex.def)             Requested size: 435.03674pt x 240.94342pt.
-<figure/Report/productcart.png, id=130, 506.39188pt x 337.76187pt>
+<figure/Report/productcart.png, id=137, 506.39188pt x 337.76187pt>
 File: figure/Report/productcart.png Graphic file (type png)
 <use figure/Report/productcart.png>
-Package pdftex.def Info: figure/Report/productcart.png  used on input line 263.
+Package pdftex.def Info: figure/Report/productcart.png  used on input line 256.
 (pdftex.def)             Requested size: 435.0558pt x 290.18094pt.
-<figure/Report/websitereview.png, id=131, 947.54pt x 425.08812pt>
+<figure/Report/websitereview.png, id=138, 947.54pt x 425.08812pt>
 File: figure/Report/websitereview.png Graphic file (type png)
 <use figure/Report/websitereview.png>
-Package pdftex.def Info: figure/Report/websitereview.png  used on input line 270.
+Package pdftex.def Info: figure/Report/websitereview.png  used on input line 263.
 (pdftex.def)             Requested size: 435.03511pt x 195.1667pt.
-<figure/ecommerce/productmanagement.png, id=132, 2473.24pt x 3725.92pt>
-File: figure/ecommerce/productmanagement.png Graphic file (type png)
-<use figure/ecommerce/productmanagement.png>
-Package pdftex.def Info: figure/ecommerce/productmanagement.png  used on input line 277.
-(pdftex.def)             Requested size: 418.48283pt x 630.44168pt.
-<figure/ecommerce/productslider.png, id=133, 2334.7225pt x 2200.22pt>
-File: figure/ecommerce/productslider.png Graphic file (type png)
-<use figure/ecommerce/productslider.png>
-Package pdftex.def Info: figure/ecommerce/productslider.png  used on input line 284.
-(pdftex.def)             Requested size: 435.01628pt x 409.95515pt.
-<figure/ecommerce/varianthandleinproduct.png, id=134, 1485.55pt x 2467.2175pt>
-File: figure/ecommerce/varianthandleinproduct.png Graphic file (type png)
-<use figure/ecommerce/varianthandleinproduct.png>
-Package pdftex.def Info: figure/ecommerce/varianthandleinproduct.png  used on input line 291.
-(pdftex.def)             Requested size: 379.59227pt x 630.43095pt.
 )
 
-[20
+[22
 
 ]
-
-[21 <./figure/ecommerce/loginform.png>]
-
-[22 <./figure/ecommerce/vendorform.png>]
 
 [23 <./figure/Report/vendortable.png> <./figure/Report/productdetails.png>]
 
 [24 <./figure/Report/productmanagement.png> <./figure/Report/filtereddata.png>]
 
 [25 <./figure/Report/productcart.png> <./figure/Report/websitereview.png>]
-
-[26 <./figure/ecommerce/productmanagement.png>]
-
-[27 <./figure/ecommerce/productslider.png>]
-
-[28 <./figure/ecommerce/varianthandleinproduct.png>]
 \openout2 = `Chapters/Chapter4.aux'.
 
  (./Chapters/Chapter4.tex
 
-[29
+[26
 
 
 
@@ -1380,9 +1359,9 @@ Package pdftex.def Info: figure/ecommerce/varianthandleinproduct.png  used on in
 
 ])
 
-[30]
+[27]
 
-[31
+[28
 
 
 
@@ -1394,139 +1373,130 @@ Package pdftex.def Info: figure/ecommerce/varianthandleinproduct.png  used on in
  (./Chapters/Chapter6.tex
 File: figure/Affiliate/Screenshot 2026-01-09 133757.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133757.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133757.png  used on input line 10.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133757.png  used on input line 12.
 (pdftex.def)             Requested size: 391.53593pt x 215.81525pt.
 File: figure/Affiliate/Screenshot 2026-01-09 133806.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133806.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133806.png  used on input line 15.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133806.png  used on input line 17.
 (pdftex.def)             Requested size: 391.53593pt x 293.76593pt.
-<figure/Affiliate/Screenshot 2026-01-09 133815.png, id=184, 648.17157pt x 310.91156pt>
+<figure/Affiliate/Screenshot 2026-01-09 133815.png, id=167, 648.17157pt x 310.91156pt>
 File: figure/Affiliate/Screenshot 2026-01-09 133815.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133815.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133815.png  used on input line 20.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133815.png  used on input line 22.
 (pdftex.def)             Requested size: 391.53593pt x 187.8103pt.
-<figure/Affiliate/Screenshot 2026-01-09 133827.png, id=185, 649.67719pt x 603.75563pt>
+<figure/Affiliate/Screenshot 2026-01-09 133827.png, id=168, 649.67719pt x 603.75563pt>
 File: figure/Affiliate/Screenshot 2026-01-09 133827.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133827.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133827.png  used on input line 25.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133827.png  used on input line 27.
 (pdftex.def)             Requested size: 391.53593pt x 363.86836pt.
-<figure/Affiliate/Screenshot 2026-01-09 133837.png, id=186, 576.65437pt x 307.90031pt>
+<figure/Affiliate/Screenshot 2026-01-09 133837.png, id=169, 576.65437pt x 307.90031pt>
 File: figure/Affiliate/Screenshot 2026-01-09 133837.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133837.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133837.png  used on input line 30.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133837.png  used on input line 32.
 (pdftex.def)             Requested size: 391.53593pt x 209.06406pt.
-<figure/Affiliate/Screenshot 2026-01-09 133848.png, id=187, 648.17157pt x 517.18219pt>
+<figure/Affiliate/Screenshot 2026-01-09 133848.png, id=170, 648.17157pt x 517.18219pt>
 File: figure/Affiliate/Screenshot 2026-01-09 133848.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133848.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133848.png  used on input line 35.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133848.png  used on input line 37.
 (pdftex.def)             Requested size: 391.53593pt x 312.41086pt.
-<figure/Affiliate/Screenshot 2026-01-09 133914.png, id=188, 652.68843pt x 603.75563pt>
+<figure/Affiliate/Screenshot 2026-01-09 133914.png, id=171, 652.68843pt x 603.75563pt>
 File: figure/Affiliate/Screenshot 2026-01-09 133914.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133914.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133914.png  used on input line 40.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133914.png  used on input line 42.
 (pdftex.def)             Requested size: 391.53593pt x 362.19168pt.
 File: figure/Affiliate/Screenshot 2026-01-09 133939.png Graphic file (type png)
 <use figure/Affiliate/Screenshot 2026-01-09 133939.png>
-Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133939.png  used on input line 45.
+Package pdftex.def Info: figure/Affiliate/Screenshot 2026-01-09 133939.png  used on input line 47.
 (pdftex.def)             Requested size: 391.53593pt x 159.41852pt.
 
 
-[32
+[29
 
 
 
 ]
 
-[33 <./figure/Affiliate/Screenshot 2026-01-09 133815.png> <./figure/Affiliate/Screenshot 2026-01-09 133827.png>]
+[30 <./figure/Affiliate/Screenshot 2026-01-09 133815.png> <./figure/Affiliate/Screenshot 2026-01-09 133827.png>]
 
-[34 <./figure/Affiliate/Screenshot 2026-01-09 133837.png> <./figure/Affiliate/Screenshot 2026-01-09 133848.png>]
+[31 <./figure/Affiliate/Screenshot 2026-01-09 133837.png> <./figure/Affiliate/Screenshot 2026-01-09 133848.png>]
 
-[35 <./figure/Affiliate/Screenshot 2026-01-09 133914.png>]
-<figure/Report/adminlogin.png, id=207, 733.74126pt x 487.8225pt>
+[32 <./figure/Affiliate/Screenshot 2026-01-09 133914.png>]
+<figure/Report/adminlogin.png, id=189, 733.74126pt x 487.8225pt>
 File: figure/Report/adminlogin.png Graphic file (type png)
 <use figure/Report/adminlogin.png>
-Package pdftex.def Info: figure/Report/adminlogin.png  used on input line 53.
+Package pdftex.def Info: figure/Report/adminlogin.png  used on input line 55.
 (pdftex.def)             Requested size: 348.03563pt x 231.39058pt.
-<figure/Report/addvendorform.png, id=208, 612.78937pt x 418.56375pt>
+<figure/Report/addvendorform.png, id=190, 612.78937pt x 418.56375pt>
 File: figure/Report/addvendorform.png Graphic file (type png)
 <use figure/Report/addvendorform.png>
-Package pdftex.def Info: figure/Report/addvendorform.png  used on input line 54.
+Package pdftex.def Info: figure/Report/addvendorform.png  used on input line 56.
 (pdftex.def)             Requested size: 348.03563pt x 237.72159pt.
 File: figure/Report/vendortable.png Graphic file (type png)
 <use figure/Report/vendortable.png>
-Package pdftex.def Info: figure/Report/vendortable.png  used on input line 59.
+Package pdftex.def Info: figure/Report/vendortable.png  used on input line 61.
 (pdftex.def)             Requested size: 391.53593pt x 207.79515pt.
 File: figure/Report/productmanagement.png Graphic file (type png)
 <use figure/Report/productmanagement.png>
-Package pdftex.def Info: figure/Report/productmanagement.png  used on input line 64.
+Package pdftex.def Info: figure/Report/productmanagement.png  used on input line 66.
 (pdftex.def)             Requested size: 391.53593pt x 235.94617pt.
 File: figure/Report/productdetails.png Graphic file (type png)
 <use figure/Report/productdetails.png>
-Package pdftex.def Info: figure/Report/productdetails.png  used on input line 69.
+Package pdftex.def Info: figure/Report/productdetails.png  used on input line 71.
 (pdftex.def)             Requested size: 391.53593pt x 206.69153pt.
 File: figure/Report/productcart.png Graphic file (type png)
 <use figure/Report/productcart.png>
-Package pdftex.def Info: figure/Report/productcart.png  used on input line 74.
+Package pdftex.def Info: figure/Report/productcart.png  used on input line 76.
 (pdftex.def)             Requested size: 391.53593pt x 261.15974pt.
 File: figure/Report/websitereview.png Graphic file (type png)
 <use figure/Report/websitereview.png>
-Package pdftex.def Info: figure/Report/websitereview.png  used on input line 79.
+Package pdftex.def Info: figure/Report/websitereview.png  used on input line 81.
 (pdftex.def)             Requested size: 391.53593pt x 175.64938pt.
-<figure/Report/carousel.png, id=209, 949.04562pt x 316.18124pt>
+<figure/Report/carousel.png, id=191, 949.04562pt x 316.18124pt>
 File: figure/Report/carousel.png Graphic file (type png)
 <use figure/Report/carousel.png>
-Package pdftex.def Info: figure/Report/carousel.png  used on input line 84.
+Package pdftex.def Info: figure/Report/carousel.png  used on input line 86.
 (pdftex.def)             Requested size: 391.53593pt x 130.44084pt.
 File: figure/Report/filtereddata.png Graphic file (type png)
 <use figure/Report/filtereddata.png>
-Package pdftex.def Info: figure/Report/filtereddata.png  used on input line 89.
+Package pdftex.def Info: figure/Report/filtereddata.png  used on input line 91.
 (pdftex.def)             Requested size: 391.53593pt x 216.84668pt.
-<figure/Report/forgotpassord.png, id=210, 377.91188pt x 226.34563pt>
+<figure/Report/forgotpassord.png, id=192, 377.91188pt x 226.34563pt>
 File: figure/Report/forgotpassord.png Graphic file (type png)
 <use figure/Report/forgotpassord.png>
-Package pdftex.def Info: figure/Report/forgotpassord.png  used on input line 94.
+Package pdftex.def Info: figure/Report/forgotpassord.png  used on input line 96.
 (pdftex.def)             Requested size: 391.53593pt x 234.50627pt.
 )
 
-[36
+[33
 
  <./figure/Report/adminlogin.png> <./figure/Report/addvendorform.png>]
 
-[37]
+[34]
 
-[38 <./figure/Report/carousel.png>]
+[35 <./figure/Report/carousel.png>]
 
-[39 <./figure/Report/forgotpassord.png>] (/home/amar/Latex/Internship-Report/out/main.aux (/home/amar/Latex/Internship-Report/out/Chapters/Chapter1.aux) (/home/amar/Latex/Internship-Report/out/Chapters/Chapter2.aux) (/home/amar/Latex/Internship-Report/out/Chapters/Chapter3.aux) (/home/amar/Latex/Internship-Report/out/Chapters/Chapter4.aux) (/home/amar/Latex/Internship-Report/out/Chapters/Chapter6.aux))
+[36 <./figure/Report/forgotpassord.png>] (/home/light/report/Internship-Report/out/main.aux (/home/light/report/Internship-Report/out/Chapters/Chapter1.aux) (/home/light/report/Internship-Report/out/Chapters/Chapter2.aux) (/home/light/report/Internship-Report/out/Chapters/Chapter3.aux) (/home/light/report/Internship-Report/out/Chapters/Chapter4.aux) (/home/light/report/Internship-Report/out/Chapters/Chapter6.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22047 strings out of 475171
- 385514 string characters out of 5767095
- 1333634 words of memory out of 5000000
- 44697 multiletter control sequences out of 15000+600000
+ 21960 strings out of 475171
+ 383757 string characters out of 5767095
+ 1331999 words of memory out of 5000000
+ 44611 multiletter control sequences out of 15000+600000
  588780 words of font info for 90 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 80i,12n,117p,1224b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,117p,1226b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /home/amar/Latex/Internship-Report/out/main.pdf (49 pages, 8327348 bytes).
+Output written on /home/light/report/Internship-Report/out/main.pdf (46 pages, 6680758 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 238 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
